@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pyautogui # For control the mouse and keyboard to automate interactions with other applications. 
 import time # For time count
 
