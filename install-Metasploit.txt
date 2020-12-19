@@ -1,0 +1,6 @@
+echo 'deb http://apt.metasploit.com/ lucid main' > /etc/apt/sources.list.d/metasploit-framework.list    [run as superuser]
+wget -O - http://apt.metasploit.com/metasploit-framework.gpg.key | sudo apt-key add -
+apt-get update    [run as superuser]
+apt-get install metasploit-framework -y   [run as superuser]
+
+#for Ubunto
