@@ -1,0 +1,25 @@
+Shell Upgrading and Stabilization:
+
+You will be familiar with reverse shells from previous tasks or rooms; however, the shells you have been taught so far have had several fatal flaws. For example, pressing Ctrl + C killed the shell entirely. You could not use the arrow keys to see your shell history, and TAB autocompletes didn’t work. Stabilizing shells is an important skill to learn as it fixes all of these problems, providing a much nicer working environment.
+
+Working inside the reverse shell:
+
+   1. The first thing to do is use python3 -c 'import pty;pty.spawn("/bin/bash")', which uses Python to spawn a better-featured bash shell. At this point, our shell will look a bit prettier, but we still won’t be able to use tab autocomplete or the arrow keys, and Ctrl + C will still kill the shell.
+   2. Step two is: export TERM=xterm – this will give us access to term commands such as clear.
+   3. Finally (and most importantly) we will background the shell using Ctrl + Z. Back in our own terminal we use stty raw -echo; fg. This does two things: first, it turns off our own terminal echo (which gives us access to tab autocompletes, the arrow keys, and Ctrl + C to kill processes). It then foregrounds the shell, thus completing the process.
+
+
+
+***************************************************
+
+1. python3 -c 'import pty;pty.spawn("/bin/bash")'
+
+2. export TERM=xterm
+
+3. press "Ctrl + Z"
+
+4. stty raw -echo; fg
+
+***************************************************
+
+
