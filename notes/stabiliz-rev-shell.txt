@@ -12,13 +12,12 @@ Working inside the reverse shell:
 
 ***************************************************
 
-1. python3 -c 'import pty;pty.spawn("/bin/bash")'
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+export TERM=xterm
 
-2. export TERM=xterm
+press "Ctrl + Z"
 
-3. press "Ctrl + Z"
-
-4. stty raw -echo; fg
+stty raw -echo; fg
 
 ***************************************************
 
