@@ -21,6 +21,7 @@ sudo apt-get install -y nmap
 sudo apt-get install -y php
 sudo apt-get install -y python
 sudo apt-get install -y python3-pip
+sudo apt-get install -y ruby
 sudo apt-get install -y searchsploit
 sudo apt-get install -y steghide
 sudo apt-get install -y sublit3r
