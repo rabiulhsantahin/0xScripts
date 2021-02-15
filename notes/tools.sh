@@ -4,6 +4,7 @@ sudo apt-get update
 
 sudo apt-get install -y cadaver
 sudo apt-get install -y cewl
+sudo apt-get install -y curl
 sudo apt-get install -y dirb
 sudo apt-get install -y dnsenum
 sudo apt-get install -y exiftool
@@ -27,6 +28,7 @@ sudo apt-get install -y steghide
 sudo apt-get install -y sublit3r
 sudo apt-get install -y tcpdump
 sudo apt-get install -y wfuzz
+sudo apt-get install -y wget
 sudo apt-get install -y whatweb
 sudo apt-get install -y wireshark
 
@@ -44,3 +46,6 @@ echo "installing waybackurls"
 go get -u github.com/tomnomnom/
 
 # sudo apt-get install xfce4-netload-plugin #Network Traffic Monitor
+
+sudo apt-get install -y --fix-missing
+sudo apt-get install -y --fix-broken
