@@ -32,10 +32,15 @@ sudo apt-get install -y wireshark
 
 ###Go applications###
 
+echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
+echo "installing gf"
 go get -u github.com/tomnomnom/gf
+echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe
+echo "installing urlprobe"
 go get -u github.com/1ndianl33t/urlprobe
-go get -u github.com/tomnomnom/waybackurls
+echo "installing waybackurls"
+go get -u github.com/tomnomnom/
 
 # sudo apt-get install xfce4-netload-plugin #Network Traffic Monitor
