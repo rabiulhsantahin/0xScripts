@@ -19,6 +19,7 @@ sudo apt-get install -y lynx
 sudo apt-get install -y masscan
 sudo apt-get install -y metasploit
 sudo apt-get install -y nmap
+# sudo apt-get install -y nessus
 sudo apt-get install -y php
 sudo apt-get install -y python
 sudo apt-get install -y python3-pip
@@ -29,13 +30,16 @@ sudo apt-get install -y sublit3r
 sudo apt-get install -y tcpdump
 sudo apt-get install -y wfuzz
 sudo apt-get install -y wget
+sudo apt-get install -y wpscan
 sudo apt-get install -y whatweb
-sudo apt-get install -y wireshark
+# sudo apt-get install -y wireshark
 
 ###Go applications###
 
 echo "installing assetfinder"
 go get -u github.com/tomnomnom/assetfinder
+echo "installing fuff"
+go get -u github.com/ffuf/ffuf
 echo "installing gf"
 go get -u github.com/tomnomnom/gf
 echo "installing httprobe"
@@ -44,6 +48,7 @@ echo "installing urlprobe"
 go get -u github.com/1ndianl33t/urlprobe
 echo "installing waybackurls"
 go get -u github.com/tomnomnom/
+
 
 # sudo apt-get install xfce4-netload-plugin #Network Traffic Monitor
 
