@@ -9,6 +9,7 @@ sudo apt-get install -y dirb
 sudo apt-get install -y dnsenum
 sudo apt-get install -y exiftool
 sudo apt-get install -y exploitdb
+sudo apt-get install -y enum4linux
 sudo apt-get install -y gobuster
 sudo apt-get install -y golang
 sudo apt-get install -y Hashcat
