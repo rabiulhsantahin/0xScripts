@@ -48,7 +48,7 @@ go get -u github.com/tomnomnom/httprobe
 echo "installing urlprobe"
 go get -u github.com/1ndianl33t/urlprobe
 echo "installing waybackurls"
-go get -u github.com/tomnomnom/
+go get -u github.com/tomnomnom/waybackurls
 
 
 # sudo apt-get install xfce4-netload-plugin #Network Traffic Monitor
