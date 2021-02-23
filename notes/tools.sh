@@ -45,6 +45,8 @@ echo "installing gf"
 go get -u github.com/tomnomnom/gf
 echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe
+echo "installing qsreplace"
+go get -u github.com/tomnomnom/qsreplace
 echo "installing urlprobe"
 go get -u github.com/1ndianl33t/urlprobe
 echo "installing waybackurls"
