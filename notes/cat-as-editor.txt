@@ -1,0 +1,11 @@
+cat = (Tools binary)
+FILENAME = (Changeable)
+EOF = <i don't know but must used.>
++++++++++++++++++++++++++++++++++++
+cat > FILENAME << EOF
+#!/bin/bash
+/bin/bash
+EOF
++++++++++++++++++++++++++++++++++++
+<img src='http://prnt.sc/108lrng'>
+-----------------------------------
