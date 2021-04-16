@@ -1,0 +1,1 @@
+cat <LIST> | xargs -P1 -n1 <COMMAND>
